@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF23E53C1FBC131100F5C4E8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23E53B1FBC131100F5C4E8 /* UIColor.swift */; };
+		DF4AFD261FBB77FE0055A56C /* OverlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AFD251FBB77FE0055A56C /* OverlayScene.swift */; };
+		DF97F54E1FC14A0C0074CC9B /* Squirter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97F54D1FC14A0C0074CC9B /* Squirter.swift */; };
+		DF97F5501FC14BF50074CC9B /* MeshUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF97F54F1FC14BF50074CC9B /* MeshUtils.swift */; };
+		DFAD306C1FC1384E00B2D7E3 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD306B1FC1384E00B2D7E3 /* Ring.swift */; };
+		DFAD306E1FC1388100B2D7E3 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD306D1FC1388100B2D7E3 /* Toy.swift */; };
+		DFAD30711FC138E200B2D7E3 /* SquirtButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD30701FC138E200B2D7E3 /* SquirtButton.swift */; };
+		DFE89C211FBC218E00A23705 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE89C201FBC218E00A23705 /* Vector3.swift */; };
+		DFE89C231FBD507D00A23705 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE89C221FBD507D00A23705 /* MotionManager.swift */; };
+		DFE89C251FBD602E00A23705 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE89C241FBD602E00A23705 /* SCNVector3.swift */; };
+		DFE89C271FBD715300A23705 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE89C261FBD715300A23705 /* Math.swift */; };
+		DFF0DDA71FBAC26E00682158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0DDA61FBAC26E00682158 /* AppDelegate.swift */; };
+		DFF0DDA91FBAC26E00682158 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF0DDA81FBAC26E00682158 /* art.scnassets */; };
+		DFF0DDAB1FBAC26E00682158 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0DDAA1FBAC26E00682158 /* GameViewController.swift */; };
+		DFF0DDAE1FBAC26E00682158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0DDAC1FBAC26E00682158 /* Main.storyboard */; };
+		DFF0DDB01FBAC26E00682158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF0DDAF1FBAC26E00682158 /* Assets.xcassets */; };
+		DFF0DDB31FBAC26E00682158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF0DDB11FBAC26E00682158 /* LaunchScreen.storyboard */; };
+		DFF0DDBE1FBAC26E00682158 /* WaterSquirtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0DDBD1FBAC26E00682158 /* WaterSquirtTests.swift */; };
+		DFF0DDC91FBAC26E00682158 /* WaterSquirtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF0DDC81FBAC26E00682158 /* WaterSquirtUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF0DDBA1FBAC26E00682158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF0DD9B1FBAC26E00682158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF0DDA21FBAC26E00682158;
+			remoteInfo = WaterSquirt;
+		};
+		DFF0DDC51FBAC26E00682158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF0DD9B1FBAC26E00682158 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF0DDA21FBAC26E00682158;
+			remoteInfo = WaterSquirt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF23E53B1FBC131100F5C4E8 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		DF4AFD251FBB77FE0055A56C /* OverlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayScene.swift; sourceTree = "<group>"; };
+		DF97F54D1FC14A0C0074CC9B /* Squirter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squirter.swift; sourceTree = "<group>"; };
+		DF97F54F1FC14BF50074CC9B /* MeshUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshUtils.swift; sourceTree = "<group>"; };
+		DFAD306B1FC1384E00B2D7E3 /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		DFAD306D1FC1388100B2D7E3 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		DFAD30701FC138E200B2D7E3 /* SquirtButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquirtButton.swift; sourceTree = "<group>"; };
+		DFE89C201FBC218E00A23705 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		DFE89C221FBD507D00A23705 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DFE89C241FBD602E00A23705 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		DFE89C261FBD715300A23705 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		DFF0DDA31FBAC26E00682158 /* WaterSquirt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterSquirt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF0DDA61FBAC26E00682158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFF0DDA81FBAC26E00682158 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DFF0DDAA1FBAC26E00682158 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DFF0DDAD1FBAC26E00682158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF0DDAF1FBAC26E00682158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF0DDB21FBAC26E00682158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF0DDB41FBAC26E00682158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF0DDB91FBAC26E00682158 /* WaterSquirtTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterSquirtTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF0DDBD1FBAC26E00682158 /* WaterSquirtTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSquirtTests.swift; sourceTree = "<group>"; };
+		DFF0DDBF1FBAC26E00682158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF0DDC41FBAC26E00682158 /* WaterSquirtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterSquirtUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF0DDC81FBAC26E00682158 /* WaterSquirtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSquirtUITests.swift; sourceTree = "<group>"; };
+		DFF0DDCA1FBAC26E00682158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF0DDA01FBAC26E00682158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDB61FBAC26E00682158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDC11FBAC26E00682158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF23E53A1FBC12F000F5C4E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFE89C201FBC218E00A23705 /* Vector3.swift */,
+				DF23E53B1FBC131100F5C4E8 /* UIColor.swift */,
+				DFE89C241FBD602E00A23705 /* SCNVector3.swift */,
+				DFE89C261FBD715300A23705 /* Math.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFAD30691FC137D100B2D7E3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				DFAD306A1FC1381B00B2D7E3 /* Game */,
+				DFF0DDA61FBAC26E00682158 /* AppDelegate.swift */,
+				DF4AFD251FBB77FE0055A56C /* OverlayScene.swift */,
+				DFE89C221FBD507D00A23705 /* MotionManager.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		DFAD306A1FC1381B00B2D7E3 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				DFAD306F1FC138C600B2D7E3 /* UI */,
+				DFF0DDAA1FBAC26E00682158 /* GameViewController.swift */,
+				DFAD306B1FC1384E00B2D7E3 /* Ring.swift */,
+				DFAD306D1FC1388100B2D7E3 /* Toy.swift */,
+				DF97F54D1FC14A0C0074CC9B /* Squirter.swift */,
+				DF97F54F1FC14BF50074CC9B /* MeshUtils.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		DFAD306F1FC138C600B2D7E3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DFAD30701FC138E200B2D7E3 /* SquirtButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DFF0DD9A1FBAC26E00682158 = {
+			isa = PBXGroup;
+			children = (
+				DFF0DDA51FBAC26E00682158 /* WaterSquirt */,
+				DFF0DDBC1FBAC26E00682158 /* WaterSquirtTests */,
+				DFF0DDC71FBAC26E00682158 /* WaterSquirtUITests */,
+				DFF0DDA41FBAC26E00682158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF0DDA41FBAC26E00682158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0DDA31FBAC26E00682158 /* WaterSquirt.app */,
+				DFF0DDB91FBAC26E00682158 /* WaterSquirtTests.xctest */,
+				DFF0DDC41FBAC26E00682158 /* WaterSquirtUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF0DDA51FBAC26E00682158 /* WaterSquirt */ = {
+			isa = PBXGroup;
+			children = (
+				DFAD30691FC137D100B2D7E3 /* Code */,
+				DF23E53A1FBC12F000F5C4E8 /* Extensions */,
+				DFF0DDA81FBAC26E00682158 /* art.scnassets */,
+				DFF0DDAC1FBAC26E00682158 /* Main.storyboard */,
+				DFF0DDAF1FBAC26E00682158 /* Assets.xcassets */,
+				DFF0DDB11FBAC26E00682158 /* LaunchScreen.storyboard */,
+				DFF0DDB41FBAC26E00682158 /* Info.plist */,
+			);
+			path = WaterSquirt;
+			sourceTree = "<group>";
+		};
+		DFF0DDBC1FBAC26E00682158 /* WaterSquirtTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0DDBD1FBAC26E00682158 /* WaterSquirtTests.swift */,
+				DFF0DDBF1FBAC26E00682158 /* Info.plist */,
+			);
+			path = WaterSquirtTests;
+			sourceTree = "<group>";
+		};
+		DFF0DDC71FBAC26E00682158 /* WaterSquirtUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF0DDC81FBAC26E00682158 /* WaterSquirtUITests.swift */,
+				DFF0DDCA1FBAC26E00682158 /* Info.plist */,
+			);
+			path = WaterSquirtUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF0DDA21FBAC26E00682158 /* WaterSquirt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF0DDCD1FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirt" */;
+			buildPhases = (
+				DFF0DD9F1FBAC26E00682158 /* Sources */,
+				DFF0DDA01FBAC26E00682158 /* Frameworks */,
+				DFF0DDA11FBAC26E00682158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterSquirt;
+			productName = WaterSquirt;
+			productReference = DFF0DDA31FBAC26E00682158 /* WaterSquirt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF0DDB81FBAC26E00682158 /* WaterSquirtTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF0DDD01FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirtTests" */;
+			buildPhases = (
+				DFF0DDB51FBAC26E00682158 /* Sources */,
+				DFF0DDB61FBAC26E00682158 /* Frameworks */,
+				DFF0DDB71FBAC26E00682158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF0DDBB1FBAC26E00682158 /* PBXTargetDependency */,
+			);
+			name = WaterSquirtTests;
+			productName = WaterSquirtTests;
+			productReference = DFF0DDB91FBAC26E00682158 /* WaterSquirtTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFF0DDC31FBAC26E00682158 /* WaterSquirtUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF0DDD31FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirtUITests" */;
+			buildPhases = (
+				DFF0DDC01FBAC26E00682158 /* Sources */,
+				DFF0DDC11FBAC26E00682158 /* Frameworks */,
+				DFF0DDC21FBAC26E00682158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF0DDC61FBAC26E00682158 /* PBXTargetDependency */,
+			);
+			name = WaterSquirtUITests;
+			productName = WaterSquirtUITests;
+			productReference = DFF0DDC41FBAC26E00682158 /* WaterSquirtUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF0DD9B1FBAC26E00682158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Ken Grimm";
+				TargetAttributes = {
+					DFF0DDA21FBAC26E00682158 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DFF0DDB81FBAC26E00682158 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFF0DDA21FBAC26E00682158;
+					};
+					DFF0DDC31FBAC26E00682158 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DFF0DDA21FBAC26E00682158;
+					};
+				};
+			};
+			buildConfigurationList = DFF0DD9E1FBAC26E00682158 /* Build configuration list for PBXProject "WaterSquirt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF0DD9A1FBAC26E00682158;
+			productRefGroup = DFF0DDA41FBAC26E00682158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF0DDA21FBAC26E00682158 /* WaterSquirt */,
+				DFF0DDB81FBAC26E00682158 /* WaterSquirtTests */,
+				DFF0DDC31FBAC26E00682158 /* WaterSquirtUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF0DDA11FBAC26E00682158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0DDA91FBAC26E00682158 /* art.scnassets in Resources */,
+				DFF0DDB31FBAC26E00682158 /* LaunchScreen.storyboard in Resources */,
+				DFF0DDB01FBAC26E00682158 /* Assets.xcassets in Resources */,
+				DFF0DDAE1FBAC26E00682158 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDB71FBAC26E00682158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDC21FBAC26E00682158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF0DD9F1FBAC26E00682158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0DDAB1FBAC26E00682158 /* GameViewController.swift in Sources */,
+				DFE89C231FBD507D00A23705 /* MotionManager.swift in Sources */,
+				DFAD306E1FC1388100B2D7E3 /* Toy.swift in Sources */,
+				DF23E53C1FBC131100F5C4E8 /* UIColor.swift in Sources */,
+				DF97F54E1FC14A0C0074CC9B /* Squirter.swift in Sources */,
+				DF4AFD261FBB77FE0055A56C /* OverlayScene.swift in Sources */,
+				DFE89C211FBC218E00A23705 /* Vector3.swift in Sources */,
+				DFF0DDA71FBAC26E00682158 /* AppDelegate.swift in Sources */,
+				DF97F5501FC14BF50074CC9B /* MeshUtils.swift in Sources */,
+				DFE89C251FBD602E00A23705 /* SCNVector3.swift in Sources */,
+				DFAD306C1FC1384E00B2D7E3 /* Ring.swift in Sources */,
+				DFE89C271FBD715300A23705 /* Math.swift in Sources */,
+				DFAD30711FC138E200B2D7E3 /* SquirtButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDB51FBAC26E00682158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0DDBE1FBAC26E00682158 /* WaterSquirtTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF0DDC01FBAC26E00682158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF0DDC91FBAC26E00682158 /* WaterSquirtUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF0DDBB1FBAC26E00682158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF0DDA21FBAC26E00682158 /* WaterSquirt */;
+			targetProxy = DFF0DDBA1FBAC26E00682158 /* PBXContainerItemProxy */;
+		};
+		DFF0DDC61FBAC26E00682158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF0DDA21FBAC26E00682158 /* WaterSquirt */;
+			targetProxy = DFF0DDC51FBAC26E00682158 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF0DDAC1FBAC26E00682158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF0DDAD1FBAC26E00682158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF0DDB11FBAC26E00682158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF0DDB21FBAC26E00682158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF0DDCB1FBAC26E00682158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFF0DDCC1FBAC26E00682158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF0DDCE1FBAC26E00682158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXS57JL9Z;
+				INFOPLIST_FILE = WaterSquirt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenmgrimm.ringshoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFF0DDCF1FBAC26E00682158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXS57JL9Z;
+				INFOPLIST_FILE = WaterSquirt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kenmgrimm.ringshoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DFF0DDD11FBAC26E00682158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3W8V3X9CS5;
+				INFOPLIST_FILE = WaterSquirtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kenmgrimm.WaterSquirtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterSquirt.app/WaterSquirt";
+			};
+			name = Debug;
+		};
+		DFF0DDD21FBAC26E00682158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3W8V3X9CS5;
+				INFOPLIST_FILE = WaterSquirtTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kenmgrimm.WaterSquirtTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterSquirt.app/WaterSquirt";
+			};
+			name = Release;
+		};
+		DFF0DDD41FBAC26E00682158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3W8V3X9CS5;
+				INFOPLIST_FILE = WaterSquirtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kenmgrimm.WaterSquirtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterSquirt;
+			};
+			name = Debug;
+		};
+		DFF0DDD51FBAC26E00682158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3W8V3X9CS5;
+				INFOPLIST_FILE = WaterSquirtUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kenmgrimm.WaterSquirtUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaterSquirt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF0DD9E1FBAC26E00682158 /* Build configuration list for PBXProject "WaterSquirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF0DDCB1FBAC26E00682158 /* Debug */,
+				DFF0DDCC1FBAC26E00682158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF0DDCD1FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF0DDCE1FBAC26E00682158 /* Debug */,
+				DFF0DDCF1FBAC26E00682158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF0DDD01FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirtTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF0DDD11FBAC26E00682158 /* Debug */,
+				DFF0DDD21FBAC26E00682158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF0DDD31FBAC26E00682158 /* Build configuration list for PBXNativeTarget "WaterSquirtUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF0DDD41FBAC26E00682158 /* Debug */,
+				DFF0DDD51FBAC26E00682158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF0DD9B1FBAC26E00682158 /* Project object */;
+}
